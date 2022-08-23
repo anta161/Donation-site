@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 60px;
 }
 
 /* common */
@@ -21,7 +21,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     height: 625px;
-    filter: blur(2px);
+    filter: blur(3px);
 }
 
 .content {
@@ -35,6 +35,7 @@ h1 {
 .content p {
     padding: 35px 0px;
     color: white;
+    font-weight: 600;
 }
 
 .content a {
@@ -43,7 +44,7 @@ h1 {
 }
 
 .header-font {
-    color: rgb(255, 255, 255);
+    color: white;
 }
 
 .donate-link {
@@ -64,10 +65,11 @@ h1 {
 }
 
 .donate-today p {
-    padding: 25px 0px;
+    padding: 35px 0px;
 }
 
 .donate-today .links a {
+
     text-decoration: none;
     border-radius: 3px;
     background-color: rgb(223, 226, 225);
@@ -79,11 +81,13 @@ h1 {
 }
 
 .donate-today .links .active {
-    background-color: rgb(170, 213, 224);
+    background-color: orangered;
+    color: white;
 }
 
 .donate-today .links a:hover {
-    background-color: rgb(170, 213, 224);
+    background-color: orangered;
+    color: white;
     transition: 1s;
 }
 
@@ -95,4 +99,129 @@ h1 {
     padding-top: 60px;
 }
 
-/* donate today section */
+.donate-link:hover {
+    background-color: orangered;
+    box-shadow: 2px 2px grey;
+    border: 1px;
+    transition: 1s;
+    border-style: solid;
+    color: white;
+}
+
+.other-amount {
+    padding-top: 50px;
+}
+
+#amount {
+    width: 400px;
+    padding: 20px;
+    border: none;
+    border-bottom: 2px solid gray;
+    text-align: center;
+}
+
+/* our donate strategy section */
+.strategy {
+    display: flex;
+    margin: 0px 130px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.food {
+    display: inline-block;
+    margin: 10px;
+    padding: 30px;
+    border: 1px solid pink;
+    background-color: pink;
+}
+
+.shelter {
+    display: inline-block;
+    margin: 10px;
+    padding: 30px;
+    border: 1px solid skyblue;
+    background-color: skyblue;
+}
+
+.education {
+    display: inline-block;
+    margin: 10px;
+    padding: 30px;
+    border: 1px solid lightgreen;
+    background-color: lightgreen;
+}
+
+/* gallery section */
+.gallery {
+    margin-top: 40px;
+    margin-left: 120px;
+    padding-bottom: 200px;
+    align-items: center;
+}
+
+.gallery img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    float: left;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.gallery img:hover {
+    transform: scale(2);
+    transition: 1s;
+}
+
+
+/* get my update section */
+.update {
+    margin: 200px 0px;
+    padding: 20px;
+}
+
+.subscribe {
+    background-color: rgb(238, 208, 168);
+    padding: 50px;
+    margin: 0px 240px;
+}
+
+.subscribe input {
+    background-color: lightgrey;
+    border: 0px solid lightgray;
+    padding: 10px 30px;
+}
+
+.subscribe button {
+    padding: 10px;
+    font-weight: 700;
+    background-color: aqua;
+    color: black;
+    border: none;
+    border-color: aqua;
+}
+
+.subscribe button:hover {
+    background-color: orangered;
+    box-shadow: 2px 2px grey;
+    border: 1px;
+    transition: 1s;
+    border-style: solid;
+    color: white;
+}
+
+/* footer section */
+.footer {
+    background: black;
+    height: auto;
+    color: antiquewhite;
+    text-align: center;
+    padding: 30px;
+}
+
+footer h3 {
+    font-family: cursive;
+    padding-bottom: 5px;
+    color: aqua;
+}
