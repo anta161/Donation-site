@@ -1,0 +1,98 @@
+/* common */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+/* common */
+/* banner */
+.background {
+    background-image: url(/images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 625px;
+    filter: blur(2px);
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    text-align: center;
+    transform: translate(300px, -60px);
+}
+
+.content p {
+    padding: 35px 0px;
+    color: white;
+}
+
+.content a {
+    text-decoration: none;
+
+}
+
+.header-font {
+    color: rgb(255, 255, 255);
+}
+
+.donate-link {
+    text-decoration: none;
+    background-color: turquoise;
+    padding: 10px;
+    border-radius: 3px;
+    color: azure;
+    font-weight: 600;
+}
+
+/* banner */
+/* donate today section */
+.donate-today {
+    height: 100%;
+    text-align: center;
+    padding: 100px;
+}
+
+.donate-today p {
+    padding: 25px 0px;
+}
+
+.donate-today .links a {
+    text-decoration: none;
+    border-radius: 3px;
+    background-color: rgb(223, 226, 225);
+    padding: 10px;
+    margin: 10px;
+    font-weight: 600;
+    box-shadow: 1px;
+    color: rgb(57, 58, 56);
+}
+
+.donate-today .links .active {
+    background-color: rgb(170, 213, 224);
+}
+
+.donate-today .links a:hover {
+    background-color: rgb(170, 213, 224);
+    transition: 1s;
+}
+
+.donate-header {
+    font-size: 40px;
+}
+
+.donateToday-link {
+    padding-top: 60px;
+}
+
+/* donate today section */
