@@ -17,7 +17,7 @@ h1 {
 /* common */
 /* banner */
 .background {
-    background-image: url(/images/donation5.jpg);
+    background-image: url(./images/donation5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 625px;
